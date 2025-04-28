@@ -36,7 +36,7 @@ public class LogicalOperation {
          *  / : 除法
          */
         // int a = 5;
-        // int b = 12;
+        // int b = 0;
 
         // double quotiend1  = a / b;
         // System.out.println(quotiend1);
@@ -122,8 +122,10 @@ public class LogicalOperation {
         /*
          *  !  : 反轉
          */
-        // boolean not = !(a < b);
-        // System.out.println(not);
+        int a = 5;
+        int b = 12;
+        boolean not = !(a < b);
+        System.out.println(not);
 
         /*
          *  ++ : 自增1

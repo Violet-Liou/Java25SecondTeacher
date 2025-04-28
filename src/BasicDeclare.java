@@ -17,8 +17,8 @@ public class BasicDeclare {
          *
          * boolean: 布林, true/false
          */
-        // int age = 25;
-        // System.out.println(age);
+        int age = 25;
+        System.out.println(age);
 
         // float weight1 = 49.4F;
         // System.out.println(weight1);
@@ -45,8 +45,10 @@ public class BasicDeclare {
         // System.out.println(bingo[5]);
         // System.out.println(bingo[2]);
 
-        // String[] students = {"A1", "A2", "A3"};
-        // System.out.println(students[1]);
+        float[] weight3 = {44.9F, 88.9F}; // 宣告一個長度為3的浮點數陣列
+
+        String[] students = {"A1", "A2", "A3"};
+        System.out.println(students[1]);
 
     }
 }
